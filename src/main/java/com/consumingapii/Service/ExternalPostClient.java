@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
+
+/**
+ * Feign client for interacting with the external post API.
+ */
 @FeignClient(
         name = "${post-service.name}",
         url = "${post-service.url}",

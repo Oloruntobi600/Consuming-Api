@@ -2,6 +2,10 @@ package com.consumingapii.Models;
 
 import lombok.Data;
 
+
+/**
+ * Todo model representing a todo item.
+ */
 @Data
 public class Todo {
     private Long id;

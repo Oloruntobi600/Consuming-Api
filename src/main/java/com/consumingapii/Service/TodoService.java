@@ -9,6 +9,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * Service layer for handling todo-related operations.
+ */
 @Service
 public class TodoService {
     private final RestTemplate restTemplate;

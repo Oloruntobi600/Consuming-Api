@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.client.RestClientException;
 
+
+/**
+ * Global exception handler to handle exceptions across the application.
+ */
 @ControllerAdvice
 public class GlobalExceptionHandler {
     @ExceptionHandler(RestClientException.class)

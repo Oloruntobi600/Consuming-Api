@@ -3,6 +3,10 @@ package com.consumingapii.Models;
 
 import lombok.Data;
 
+
+/**
+ * Post model representing a post entity.
+ */
 @Data
 public class Post {
     private Long id;

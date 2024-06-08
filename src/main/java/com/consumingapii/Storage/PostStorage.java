@@ -7,6 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
+
+
+/**
+ * In-memory storage for posts.
+ */
 @Component
 public class PostStorage {
     private final List<Post> localPosts = new ArrayList<>();

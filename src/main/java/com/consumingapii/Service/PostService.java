@@ -7,6 +7,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+
+/**
+ * Service layer for handling post-related operations.
+ */
 @Service
 public class PostService {
     private final PostStorage postStorage;

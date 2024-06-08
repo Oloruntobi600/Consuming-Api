@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+/**
+ * REST controller for managing todos.
+ */
 @RestController
 @RequestMapping("/api/todos")
 public class TodoController {
